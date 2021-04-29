@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- Самый главный тег на странице -->
+<head> <!-- Шапка страницы: тут её основное описание -->
+    <meta charset="UTF-8"> <!-- Кодировка страницы -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Для совместимости с IE -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Для красивого и правильного отображения на телефонах -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <meta mane="description" content="Учусь верстать сайт для Насти"> <!-- Описание страницы -->
+
+    <meta name="author" content="Kirill"> <!-- Автор страницы -->
+
+    <title>Styxee</title> <!-- Название вкладки в браузере -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- Сначала сброс всех стилей других браузеров через подключение нормалайз, а потом подключение своих стилей -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"> <!-- Подключение своих стилей -->
+    <link rel="stylesheet" href="css/slider.css"> <!-- Подключение стилей слайдера -->
+
+</head>
+
+<body> <!-- контент, наполнение сайта -->
+    <!-- <header></header>  Шапка сайта
+    <nav></nav>  Навигационное меню 
+    <article></article>  Оформление записи в блоге 
+    <section></section>  Для лэндинга - фулскрин секции сайта 
+    <aside></aside>  Колонки с виджетами сбоку 
+    <main></main>  Основное содержание документа - без блоков, которые появляются при действиях клиента 
+    <address></address>
+    <footer></footer>  Нижняя часть сайта --> 
+    <!-- Предпроцессоры SASS LESS SCSS - выполняют одну и ту же задачу, отличие в синтаксисе (в SASS не надо {} ставить), миксинах (между $ и @), LESS прекратили поддержку продукта -->
+
+    <section class="promo">
+
+        <div class="conteiner">
+            <div class="logo">
+                <img src="img/cat.png" alt="main_pic" class="main_img">
+                <div class="main_pic_text">styxee_heart</div>
+            </div>
+
+            <h1 class="title">Design for you <br>in shape of a heart</h1>
+
+            <h2 class="title_little">Tatoo, stickers, pattern and prints</h2>
+            
+            <div class="arrow">
+                <img src="img/arrow.png" alt="arrow_pic" class="arrow_img">
+            </div>   
+        </div>
+
+    </section>
+
+    <section class="wrapper">
+       
+        <div class="slider">
+            <div class="slider_item">
+                <img src="img/slides/1.png" alt="">
+            </div>            
+            <div class="slider_item">
+                <img src="img/slides/3.png" alt="">
+            </div>
+            <div class="slider_item">
+                <img src="img/slides/4.png" alt="">
+            </div>
+            <div class="slider_item">
+                <img src="img/slides/5.png" alt="">
+            </div>   
+            <div class="slider_item">
+                <img src="img/slides/6.png" alt="">
+            </div>   
+            <div class="slider_item">
+                <img src="img/slides/7.png" alt="">
+            </div>   
+            <div class="slider_item">
+                <img src="img/slides/8.png" alt="">
+            </div>   
+            <div class="slider_item">
+                <img src="img/slides/9.png" alt="">
+            </div>   
+            <div class="slider_item">
+                <img src="img/slides/10.png" alt="">
+            </div>            
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="footer">
+			<div class="conteiner">
+                <h1 class="title">Get your heart</h1>
+            
+                <div class="footer_wrapper">
+                    <div class="footer_item">
+                        <img src="img/footer_icons/fiverr.png" alt="fiver" class="footer_img">
+                        <div class="footer_brand">Fiverr</div>                
+                        <div class="footer_descr">Here you can order your personal design. Just write me or create an order, and well start to work</div>
+                        <a class="btn btn-primary" href="https://www.fiverr.com/share/k2Y9kA" role="button">Order now</a>
+                    </div>
+                    
+                    <div class="footer_item">
+                        <img src="img/footer_icons/gmail.png" alt="gmail" class="footer_img">
+                        <div class="footer_brand">styxee.heart@gmail.com</div>                    
+                        <div class="footer_descr">For RU audience or for any other questions write please by mail I will reply in one day</div>
+                    </div>                    
+                </div>
+
+                <div class="footer_insta">For more designs follow me on my <a href="https://www.instagram.com/styxee_heart"><u>Instagram page</u></a></div>
+
+            </div>
+
+			
+
+		</div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</body>
+</html>
